@@ -6,7 +6,8 @@
   "version": "4.0.0-alpha.4",
   "dependencies": {
     "classnames": "^2.2.5",
-    "gitbook-core": "^4.0.0-alpha.4"
+    "gitbook-core": "^4.0.0-alpha.4",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "gitbook-plugin": "^4.0.0-alpha.4"
@@ -16,7 +17,8 @@
   },
   "scripts": {
     "build-js": "gitbook-plugin build ./src/index.js ./_assets/plugin.js",
-    "prepublish": "npm run build-js"
+    "prepublish": "npm run snyk-protect && npm run build-js",
+    "snyk-protect": "snyk protect"
   },
   "homepage": "https://github.com/GitbookIO/gitbook",
   "repository": {
@@ -34,5 +36,6 @@
         "default": "left"
       }
     }
-  }
+  },
+  "snyk": true
 }
