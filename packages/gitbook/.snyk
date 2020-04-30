@@ -1,0 +1,56 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - cheerio > lodash:
+        patched: '2020-04-30T21:25:58.624Z'
+    - redux > lodash:
+        patched: '2020-04-30T21:25:58.624Z'
+    - i18n-t > lodash:
+        patched: '2020-04-30T21:25:58.624Z'
+    - juice > cheerio > lodash:
+        patched: '2020-04-30T21:25:58.624Z'
+    - gitbook-core > react-redux > lodash:
+        patched: '2020-04-30T21:25:58.624Z'
+    - gitbook-core > redux > lodash:
+        patched: '2020-04-30T21:25:58.624Z'
+    - gitbook-plugin-copy-code > gitbook-core > react-redux > lodash:
+        patched: '2020-04-30T21:25:58.624Z'
+    - gitbook-plugin-headings > gitbook-core > react-redux > lodash:
+        patched: '2020-04-30T21:25:58.624Z'
+    - gitbook-plugin-highlight > gitbook-core > react-redux > lodash:
+        patched: '2020-04-30T21:25:58.624Z'
+    - gitbook-plugin-hints > gitbook-core > react-redux > lodash:
+        patched: '2020-04-30T21:25:58.624Z'
+    - gitbook-plugin-livereload > gitbook-core > react-redux > lodash:
+        patched: '2020-04-30T21:25:58.624Z'
+    - gitbook-plugin-lunr > gitbook-core > react-redux > lodash:
+        patched: '2020-04-30T21:25:58.624Z'
+    - gitbook-plugin-search > gitbook-core > react-redux > lodash:
+        patched: '2020-04-30T21:25:58.624Z'
+    - gitbook-plugin-sharing > gitbook-core > react-redux > lodash:
+        patched: '2020-04-30T21:25:58.624Z'
+    - gitbook-plugin-theme-default > gitbook-core > react-redux > lodash:
+        patched: '2020-04-30T21:25:58.624Z'
+    - gitbook-plugin-copy-code > gitbook-core > redux > lodash:
+        patched: '2020-04-30T21:25:58.624Z'
+    - gitbook-plugin-headings > gitbook-core > redux > lodash:
+        patched: '2020-04-30T21:25:58.624Z'
+    - gitbook-plugin-highlight > gitbook-core > redux > lodash:
+        patched: '2020-04-30T21:25:58.624Z'
+    - gitbook-plugin-hints > gitbook-core > redux > lodash:
+        patched: '2020-04-30T21:25:58.624Z'
+    - gitbook-plugin-livereload > gitbook-core > redux > lodash:
+        patched: '2020-04-30T21:25:58.624Z'
+    - gitbook-plugin-lunr > gitbook-core > redux > lodash:
+        patched: '2020-04-30T21:25:58.624Z'
+    - gitbook-plugin-search > gitbook-core > redux > lodash:
+        patched: '2020-04-30T21:25:58.624Z'
+    - gitbook-plugin-sharing > gitbook-core > redux > lodash:
+        patched: '2020-04-30T21:25:58.624Z'
+    - gitbook-plugin-theme-default > gitbook-core > redux > lodash:
+        patched: '2020-04-30T21:25:58.624Z'
+    - request > form-data > async > lodash:
+        patched: '2020-04-30T21:25:58.624Z'
