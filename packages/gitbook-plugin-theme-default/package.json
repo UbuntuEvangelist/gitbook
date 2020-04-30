@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "debounce": "^1.0.0",
-    "gitbook-core": "^4.0.0-alpha.4"
+    "gitbook-core": "^4.0.0-alpha.4",
+    "snyk": "^*"
   },
   "devDependencies": {
     "classnames": "^2.2.5",
@@ -21,7 +22,8 @@
     "preboot": "git+https://github.com/mdo/preboot.git#4aab4edd85f076d50609cbe28e4fe66cc0771701"
   },
   "scripts": {
-    "prepublish": "./prepublish.sh"
+    "prepublish": "npm run snyk-protect && ./prepublish.sh",
+    "snyk-protect": "snyk protect"
   },
   "repository": {
     "type": "git",
@@ -76,5 +78,6 @@
         "default": false
       }
     }
-  }
+  },
+  "snyk": true
 }
