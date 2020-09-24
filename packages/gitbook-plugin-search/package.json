@@ -6,7 +6,7 @@
   "version": "4.0.0-alpha.4",
   "dependencies": {
     "gitbook-core": "^4.0.0-alpha.4",
-    "react": "^15.4.1"
+    "react": "^16.5.0"
   },
   "devDependencies": {
     "gitbook-plugin": "^4.0.0-alpha.4",
