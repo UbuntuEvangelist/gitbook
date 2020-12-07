@@ -6,7 +6,7 @@
   "version": "4.0.0-alpha.4",
   "dependencies": {
     "gitbook-core": "^4.0.0-alpha.4",
-    "highlight.js": "9.7.0"
+    "highlight.js": "10.4.1"
   },
   "devDependencies": {
     "gitbook-plugin": "^4.0.0-alpha.4"
