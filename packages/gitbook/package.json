@@ -42,7 +42,7 @@
     "js-yaml": "^3.6.1",
     "json-schema-defaults": "0.1.1",
     "jsonschema": "1.1.0",
-    "juice": "2.0.0",
+    "juice": "3.0.0",
     "markup-it": "^3.2.2",
     "mkdirp": "0.5.1",
     "moment": "2.13.0",
@@ -63,7 +63,7 @@
     "spawn-cmd": "0.0.2",
     "tiny-lr": "0.2.1",
     "tmp": "0.0.28",
-    "urijs": "1.18.0"
+    "urijs": "1.19.6"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
