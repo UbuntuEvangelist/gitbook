@@ -44,7 +44,7 @@
     "jsonschema": "1.1.0",
     "juice": "2.0.0",
     "markup-it": "^3.2.2",
-    "mkdirp": "0.5.1",
+    "mkdirp": "0.5.2",
     "moment": "2.13.0",
     "npm": "6.13.4",
     "nunjucks": "2.5.2",
